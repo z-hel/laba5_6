@@ -19,11 +19,12 @@ public class CitiesAdapter extends PagerAdapter {
 
     private List<City> cities;
     private Context context;
+    private OnCityClickListener onCityClickListener;
 
-
-    public CitiesAdapter(Context context, List<City> cities) {
+    public CitiesAdapter(Context context, List<City> cities, OnCityClickListener onCityClickListener) {
         this.context = context;
         this.cities = cities;
+        this.onCityClickListener = onCityClickListener;
     }
 
     @Override
@@ -41,6 +42,8 @@ public class CitiesAdapter extends PagerAdapter {
         container.addView(view);
 
         renderCity(view, cities.get(position));
+
+        view.setOnClickListener(view1 -> onCityClickListener.onCityClick(cities.get(position)));
 
         return view;
     }
@@ -60,5 +63,9 @@ public class CitiesAdapter extends PagerAdapter {
 
         ((TextView) view.findViewById(R.id.city_name)).setText(city.getName());
         ((ImageView) view.findViewById(R.id.image_city)).setImageDrawable(Utils.getDrawableFromAssets(context, city.getPicture()));
+    }
+
+    public interface OnCityClickListener {
+        void onCityClick(City city);
     }
 }
