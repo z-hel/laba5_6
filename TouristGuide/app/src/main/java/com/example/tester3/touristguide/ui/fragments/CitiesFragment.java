@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.tester3.touristguide.R;
+import com.example.tester3.touristguide.data.Repository;
 import com.example.tester3.touristguide.models.City;
 import com.example.tester3.touristguide.models.Event;
 import com.example.tester3.touristguide.models.FoodCourt;
@@ -22,9 +23,15 @@ import java.util.List;
 
 public class CitiesFragment extends Fragment {
 
-    public static CitiesFragment newInstance() {
+    private Repository repository;
 
-        return new CitiesFragment();
+    public static CitiesFragment newInstance(Repository repository) {
+
+        CitiesFragment fragment = new CitiesFragment();
+
+        fragment.repository = repository;
+
+        return fragment;
     }
 
     @Nullable
@@ -42,13 +49,7 @@ public class CitiesFragment extends Fragment {
         if (root == null)
             return;
 
-        List<City> cities = new ArrayList<City>() {{
-            add(new City("kjhglsdkfjghl", "fjghlsd", new ArrayList<Place>(), new ArrayList<FoodCourt>(), new ArrayList<Event>()));
-            add(new City("sdkghlk", "fjghlsd", new ArrayList<Place>(), new ArrayList<FoodCourt>(), new ArrayList<Event>()));
-            add(new City("sdfjghld", "fjghlsd", new ArrayList<Place>(), new ArrayList<FoodCourt>(), new ArrayList<Event>()));
-            add(new City("sdjfghsldkg", "fjghlsd", new ArrayList<Place>(), new ArrayList<FoodCourt>(), new ArrayList<Event>()));
-        }};
-
+        List<City> cities = repository.getCities();
 
         CitiesAdapter adapter = new CitiesAdapter(getContext(), cities);
 

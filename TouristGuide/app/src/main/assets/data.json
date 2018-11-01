@@ -1,0 +1,656 @@
+[
+  {
+    "city_name": "Прага",
+    "picture": "prague.jpg",
+    "places": [
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      }
+    ],
+    "food_court": [
+      {
+        "name": "Белая корова",
+        "picture": "",
+        "rating": 4.7,
+        "avgbill": 150,
+        "location": {
+          "latitude": 50.077781,
+          "longitude": 14.43266,
+          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+        }
+      },
+      {
+        "name": "Белая корова",
+        "picture": "",
+        "rating": 4.7,
+        "avgbill": 150,
+        "location": {
+          "latitude": 50.077781,
+          "longitude": 14.43266,
+          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+        }
+      },{
+        "name": "Белая корова",
+        "picture": "",
+        "rating": 4.7,
+        "avgbill": 150,
+        "location": {
+          "latitude": 50.077781,
+          "longitude": 14.43266,
+          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+        }
+      },
+      {
+        "name": "Белая корова",
+        "picture": "",
+        "rating": 4.7,
+        "avgbill": 150,
+        "location": {
+          "latitude": 50.077781,
+          "longitude": 14.43266,
+          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+        }
+      },
+      {
+        "name": "Белая корова",
+        "picture": "",
+        "rating": 4.7,
+        "avgbill": 150,
+        "location": {
+          "latitude": 50.077781,
+          "longitude": 14.43266,
+          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+        }
+      }
+    ],
+    "events": [
+      {
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },
+      {
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      }
+    ]
+  },
+  {
+    "city_name": "London",
+    "picture": "london.jpg",
+    "places": [
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      }
+    ],
+    "food_court": [
+      {
+        "name": "Белая корова",
+        "picture": "",
+        "rating": 4.7,
+        "avgbill": 150,
+        "location": {
+          "latitude": 50.077781,
+          "longitude": 14.43266,
+          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+        }
+      },
+      {
+        "name": "Белая корова",
+        "picture": "",
+        "rating": 4.7,
+        "avgbill": 150,
+        "location": {
+          "latitude": 50.077781,
+          "longitude": 14.43266,
+          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+        }
+      },{
+        "name": "Белая корова",
+        "picture": "",
+        "rating": 4.7,
+        "avgbill": 150,
+        "location": {
+          "latitude": 50.077781,
+          "longitude": 14.43266,
+          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+        }
+      },
+      {
+        "name": "Белая корова",
+        "picture": "",
+        "rating": 4.7,
+        "avgbill": 150,
+        "location": {
+          "latitude": 50.077781,
+          "longitude": 14.43266,
+          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+        }
+      },
+      {
+        "name": "Белая корова",
+        "picture": "",
+        "rating": 4.7,
+        "avgbill": 150,
+        "location": {
+          "latitude": 50.077781,
+          "longitude": 14.43266,
+          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+        }
+      }
+    ],
+    "events": [
+      {
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },
+      {
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      }
+    ]
+  },
+  {
+    "city_name": "Spb",
+    "picture": "stpiter.jpg",
+    "places": [
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      },
+      {
+        "name": "Карлов мост",
+        "picture": "",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, 110 00 Praha 1, Чехия"
+        }
+      }
+    ],
+    "food_court": [
+      {
+        "name": "Белая корова",
+        "picture": "",
+        "rating": 4.7,
+        "avgbill": 150,
+        "location": {
+          "latitude": 50.077781,
+          "longitude": 14.43266,
+          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+        }
+      },
+      {
+        "name": "Белая корова",
+        "picture": "",
+        "rating": 4.7,
+        "avgbill": 150,
+        "location": {
+          "latitude": 50.077781,
+          "longitude": 14.43266,
+          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+        }
+      },{
+        "name": "Белая корова",
+        "picture": "",
+        "rating": 4.7,
+        "avgbill": 150,
+        "location": {
+          "latitude": 50.077781,
+          "longitude": 14.43266,
+          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+        }
+      },
+      {
+        "name": "Белая корова",
+        "picture": "",
+        "rating": 4.7,
+        "avgbill": 150,
+        "location": {
+          "latitude": 50.077781,
+          "longitude": 14.43266,
+          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+        }
+      },
+      {
+        "name": "Белая корова",
+        "picture": "",
+        "rating": 4.7,
+        "avgbill": 150,
+        "location": {
+          "latitude": 50.077781,
+          "longitude": 14.43266,
+          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+        }
+      }
+    ],
+    "events": [
+      {
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },
+      {
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      },{
+        "title": "Magical Prague: The Crown of Bohemia",
+        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
+        "pictures": [],
+        "date": "29 ноября 2018 г., 18:45",
+        "location": {
+          "latitude": 50.0861773679804,
+          "longitude": 14.4138157367706,
+          "address": "Karlův most, Praha 1, Чехия"
+        }
+      }
+    ]
+  }
+]

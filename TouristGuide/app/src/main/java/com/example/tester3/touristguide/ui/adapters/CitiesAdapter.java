@@ -6,10 +6,12 @@ import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.tester3.touristguide.R;
 import com.example.tester3.touristguide.models.City;
+import com.example.tester3.touristguide.utils.Utils;
 
 import java.util.List;
 
@@ -54,9 +56,9 @@ public class CitiesAdapter extends PagerAdapter {
         return view == object;
     }
 
-    private static void renderCity(View view, City city) {
+    private void renderCity(View view, City city) {
 
-        /* todo implement */
         ((TextView) view.findViewById(R.id.city_name)).setText(city.getName());
+        ((ImageView) view.findViewById(R.id.image_city)).setImageDrawable(Utils.getDrawableFromAssets(context, city.getPicture()));
     }
 }

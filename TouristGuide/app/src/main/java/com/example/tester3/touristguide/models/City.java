@@ -1,11 +1,18 @@
 package com.example.tester3.touristguide.models;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.List;
 
 public class City {
 
+    @SerializedName("city_name")
     private String name;
+
+    @SerializedName("picture")
     private String picture;
+
+//    @SerializedName("Places")
     private List<Place> placeList;
     private List<FoodCourt> foodCourtList;
     private List<Event> eventList;
