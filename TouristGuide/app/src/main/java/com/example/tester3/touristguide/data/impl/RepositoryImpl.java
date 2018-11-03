@@ -4,6 +4,9 @@ import android.content.Context;
 
 import com.example.tester3.touristguide.data.Repository;
 import com.example.tester3.touristguide.models.City;
+import com.example.tester3.touristguide.models.Event;
+import com.example.tester3.touristguide.models.FoodCourt;
+import com.example.tester3.touristguide.models.Place;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
@@ -32,7 +35,6 @@ public class RepositoryImpl implements Repository {
         Type listType = new TypeToken<ArrayList<City>>(){}.getType();
         return gson.fromJson(json, listType);
     }
-
     private String readCitiesJson() {
         String json;
         try {

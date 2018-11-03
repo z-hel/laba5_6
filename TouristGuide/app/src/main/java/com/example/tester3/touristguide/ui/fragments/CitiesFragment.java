@@ -1,6 +1,7 @@
 package com.example.tester3.touristguide.ui.fragments;
 
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -16,10 +17,12 @@ import com.example.tester3.touristguide.models.City;
 import com.example.tester3.touristguide.models.Event;
 import com.example.tester3.touristguide.models.FoodCourt;
 import com.example.tester3.touristguide.models.Place;
+import com.example.tester3.touristguide.ui.activities.MainActivity;
 import com.example.tester3.touristguide.ui.adapters.CitiesAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class CitiesFragment extends Fragment {
 
@@ -50,13 +53,19 @@ public class CitiesFragment extends Fragment {
             return;
 
         List<City> cities = repository.getCities();
+//        ViewPager viewPager = new ViewPager(Objects.requireNonNull(getContext()));
+
+
+        ViewPager list = root.findViewById(R.id.cities_list);
 
         CitiesAdapter adapter = new CitiesAdapter(getContext(), cities, city -> {
             //todo navigate to CityInfoFragment
+//            System.out.println(list.getCurrentItem());
+            ((MainActivity) Objects.requireNonNull(getActivity())).openCityInfo(cities.get(list.getCurrentItem()));
         });
 
-        ViewPager list = root.findViewById(R.id.cities_list);
         list.setAdapter(adapter);
+
     }
 }
 

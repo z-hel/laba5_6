@@ -7,7 +7,9 @@ import android.os.Bundle;
 import com.example.tester3.touristguide.R;
 import com.example.tester3.touristguide.data.Repository;
 import com.example.tester3.touristguide.data.impl.RepositoryImpl;
+import com.example.tester3.touristguide.models.City;
 import com.example.tester3.touristguide.ui.fragments.CitiesFragment;
+import com.example.tester3.touristguide.ui.fragments.CityInfoFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,5 +32,13 @@ public class MainActivity extends AppCompatActivity {
 
     public Repository getRepository() {
         return repository;
+    }
+
+    public void openCityInfo(City city) {
+        FragmentManager fm = getSupportFragmentManager();
+        fm
+                .beginTransaction()
+                .replace(R.id.container, CityInfoFragment.newInstance(city))
+                .commit();
     }
 }
