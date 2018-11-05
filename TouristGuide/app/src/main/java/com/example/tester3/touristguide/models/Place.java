@@ -1,12 +1,19 @@
 package com.example.tester3.touristguide.models;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.math.BigDecimal;
 
 public class Place {
+
+    @SerializedName("name")
     private String name;
+
+    @SerializedName("picture")
     private String picture;
+
+    @SerializedName("location")
     private Location location;
-    private String address;
 
     public String getName() {
         return name;
@@ -30,13 +37,5 @@ public class Place {
 
     public void setLocation(Location location) {
         this.location = location;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
     }
 }

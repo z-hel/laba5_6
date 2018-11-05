@@ -31,7 +31,6 @@ public class RepositoryImpl implements Repository {
         String json = readCitiesJson();
         GsonBuilder builder = new GsonBuilder();
         Gson gson = builder.create();
-
         Type listType = new TypeToken<ArrayList<City>>(){}.getType();
         return gson.fromJson(json, listType);
     }

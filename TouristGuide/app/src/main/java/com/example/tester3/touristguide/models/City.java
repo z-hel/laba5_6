@@ -12,15 +12,16 @@ public class City {
     @SerializedName("picture")
     private String picture;
 
-//    @SerializedName("Places")
-    private List<Place> placeList;
+    @SerializedName("places")
+    private List<Place> places;
+
     private List<FoodCourt> foodCourtList;
     private List<Event> eventList;
 
     public City(String name, String picture, List<Place> placeList, List<FoodCourt> foodCourtList, List<Event> eventList) {
         this.name = name;
         this.picture = picture;
-        this.placeList = placeList;
+        this.places = placeList;
         this.foodCourtList = foodCourtList;
         this.eventList = eventList;
     }
@@ -42,12 +43,12 @@ public class City {
         this.picture = picture;
     }
 
-    public List<Place> getPlaceList() {
-        return placeList;
+    public List<Place> getPlaces() {
+        return places;
     }
 
-    public void setPlaceList(List<Place> placeList) {
-        this.placeList = placeList;
+    public void setPlaces(List<Place> places) {
+        this.places = places;
     }
 
     public List<FoodCourt> getFoodCourtList() {

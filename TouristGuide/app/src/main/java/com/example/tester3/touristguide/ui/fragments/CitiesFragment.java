@@ -58,11 +58,7 @@ public class CitiesFragment extends Fragment {
 
         ViewPager list = root.findViewById(R.id.cities_list);
 
-        CitiesAdapter adapter = new CitiesAdapter(getContext(), cities, city -> {
-            //todo navigate to CityInfoFragment
-//            System.out.println(list.getCurrentItem());
-            ((MainActivity) Objects.requireNonNull(getActivity())).openCityInfo(cities.get(list.getCurrentItem()));
-        });
+        CitiesAdapter adapter = new CitiesAdapter(getContext(), cities, city -> ((MainActivity) Objects.requireNonNull(getActivity())).openCityInfo(cities.get(list.getCurrentItem())));
 
         list.setAdapter(adapter);
 
