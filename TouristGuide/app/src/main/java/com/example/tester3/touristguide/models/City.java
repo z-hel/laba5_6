@@ -15,6 +15,7 @@ public class City {
     @SerializedName("places")
     private List<Place> places;
 
+    @SerializedName("food_court")
     private List<FoodCourt> foodCourtList;
     private List<Event> eventList;
 

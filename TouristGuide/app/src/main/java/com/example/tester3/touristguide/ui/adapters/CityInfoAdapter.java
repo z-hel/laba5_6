@@ -40,11 +40,14 @@ public class CityInfoAdapter extends PagerAdapter {
 
         switch (position) {
             case 0:
-                PlacesAdapter adapter = new PlacesAdapter(context, city.getPlaces());
-                RecyclerView list = view.findViewById(R.id.list);
-                list.setAdapter(adapter);
+                PlacesAdapter adapterPlace = new PlacesAdapter(context, city.getPlaces());
+                RecyclerView listPlaces = view.findViewById(R.id.list);
+                listPlaces.setAdapter(adapterPlace);
                 break;
             case 1:
+                FoodCourtsAdapter adapterFoodCourt = new FoodCourtsAdapter(context, city.getFoodCourtList());
+                RecyclerView listFoodCourts = view.findViewById(R.id.list);
+                listFoodCourts.setAdapter(adapterFoodCourt);
                 break;
         }
 

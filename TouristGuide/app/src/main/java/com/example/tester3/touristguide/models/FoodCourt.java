@@ -1,8 +1,25 @@
 package com.example.tester3.touristguide.models;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.math.BigDecimal;
 
 public class FoodCourt {
+    @SerializedName("name")
+    private String name;
+
+    @SerializedName("picture")
+    private String picture;
+
+    @SerializedName("rating")
+    private int rating;
+
+    @SerializedName("avgbill")
+    private BigDecimal avgbill;
+
+    @SerializedName("location")
+    private Location location;
+
     public String getName() {
         return name;
     }
@@ -43,9 +60,5 @@ public class FoodCourt {
         this.location = location;
     }
 
-    private String name;
-    private String picture;
-    private int rating;
-    private BigDecimal avgbill;
-    private Location location;
+
 }

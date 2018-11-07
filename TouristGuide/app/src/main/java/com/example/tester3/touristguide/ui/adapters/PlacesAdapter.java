@@ -7,11 +7,13 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.tester3.touristguide.R;
 import com.example.tester3.touristguide.models.Place;
 import com.example.tester3.touristguide.ui.viewholders.PlacesViewHolder;
+import com.example.tester3.touristguide.utils.Utils;
 
 import java.util.List;
 
