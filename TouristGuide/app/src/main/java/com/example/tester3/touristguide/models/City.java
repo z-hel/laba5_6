@@ -17,6 +17,7 @@ public class City {
 
     @SerializedName("food_court")
     private List<FoodCourt> foodCourtList;
+
     private List<Event> eventList;
 
     public City(String name, String picture, List<Place> placeList, List<FoodCourt> foodCourtList, List<Event> eventList) {

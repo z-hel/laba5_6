@@ -12,7 +12,7 @@ public class FoodCourt {
     private String picture;
 
     @SerializedName("rating")
-    private int rating;
+    private float rating;
 
     @SerializedName("avgbill")
     private BigDecimal avgbill;
@@ -36,7 +36,7 @@ public class FoodCourt {
         this.picture = picture;
     }
 
-    public int getRating() {
+    public float getRating() {
         return rating;
     }
 

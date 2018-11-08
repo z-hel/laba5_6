@@ -13,7 +13,7 @@ public class FoodCourtsViewHolder extends RecyclerView.ViewHolder{
     public FoodCourtsViewHolder(View itemView) {super(itemView);}
     public void bind (FoodCourt foodCourt) {
         ((TextView)(itemView.findViewById(R.id.foodcourt_name))).setText(foodCourt.getName());
-        ((TextView)(itemView.findViewById(R.id.foodcourt_rating_text))).setText(foodCourt.getRating());
+        ((TextView)(itemView.findViewById(R.id.foodcourt_rating_text))).setText(Float.toString(foodCourt.getRating()));
         ((TextView)(itemView.findViewById(R.id.foodcourt_avgbill))).setText(foodCourt.getAvgbill().toString());
         ((TextView)(itemView.findViewById(R.id.foodcourt_address))).setText(foodCourt.getLocation().getAddress());
         ((ImageView)itemView.findViewById(R.id.foodcourt_picture)).setImageDrawable(Utils.getDrawableFromAssets(itemView.getContext(), foodCourt.getPicture()));

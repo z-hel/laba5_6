@@ -3,6 +3,7 @@ package com.example.tester3.touristguide.ui.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.PagerAdapter;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -12,6 +13,7 @@ import android.widget.TextView;
 
 import com.example.tester3.touristguide.R;
 import com.example.tester3.touristguide.models.City;
+
 
 public class CityInfoAdapter extends PagerAdapter {
     private City city;
@@ -68,8 +70,10 @@ public class CityInfoAdapter extends PagerAdapter {
         return view == object;
     }
     private void renderTabs(View view, City city) {
-        view.findViewById(R.id.places_tab).setSelected(true);
         ((TextView)view.findViewById(R.id.city_name)).setText(city.getName());
+//        ((TabLayout.Tab)view.findViewById(R.id.places_tab)).setText(R.string.places_tab);
+//        ((TabLayout.Tab)view.findViewById(R.id.foodcourts_tab)).setText(R.string.foodcourts_tab);
+//        ((TabLayout.Tab)view.findViewById(R.id.events_tab)).setText(R.string.events_tab);
     }
 
     public interface OnTabClickListener {
