@@ -6,55 +6,57 @@
     android:layout_height="match_parent">
 
 
-        <ImageView
-            android:id="@+id/back"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            android:padding="12dp"
-            android:src="@drawable/back"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            />
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:clickable="true"
+        android:padding="12dp"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@id/tab_layout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/back"
         app:layout_constraintTop_toTopOf="parent" />
 
-        <android.support.design.widget.TabLayout
-            android:id="@+id/tab_layout"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            app:layout_constraintTop_toBottomOf="@+id/back"
-            android:layout_marginTop="4dp">
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@+id/back"
+        app:tabIndicatorColor="@android:color/darker_gray">
 
-            <android.support.design.widget.TabItem
-                android:id="@+id/places_tab"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Places" />
+        <android.support.design.widget.TabItem
+            android:id="@+id/places_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/places_tab" />
 
-            <android.support.design.widget.TabItem
-                android:id="@+id/foodcourts_tab"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Food Courts" />
+        <android.support.design.widget.TabItem
+            android:id="@+id/foodcourts_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/foodcourts_tab" />
 
-            <android.support.design.widget.TabItem
-                android:id="@+id/events_tab"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Events" />
+        <android.support.design.widget.TabItem
+            android:id="@+id/events_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/events_tab" />
 
-        </android.support.design.widget.TabLayout>
+    </android.support.design.widget.TabLayout>
         <android.support.v4.view.ViewPager
             android:layout_width="match_parent"
             android:layout_height="0dp"

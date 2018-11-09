@@ -41,4 +41,12 @@ public class MainActivity extends AppCompatActivity {
                 .replace(R.id.container, CityInfoFragment.newInstance(city))
                 .commit();
     }
+
+    public void openCities() {
+        FragmentManager fm = getSupportFragmentManager();
+        fm
+                .beginTransaction()
+                .replace(R.id.container, CitiesFragment.newInstance(getRepository()))
+                .commit();
+    }
 }

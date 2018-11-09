@@ -18,13 +18,13 @@ import com.example.tester3.touristguide.models.City;
 public class CityInfoAdapter extends PagerAdapter {
     private City city;
     private Context context;
-    private OnTabClickListener onTabClickListener;
+    private OnBackClickListener onBackClickListener;
     private static final int TAB_INFO_COUNT = 3;
 
-    public CityInfoAdapter(Context context, City city, OnTabClickListener onTabClickListener) {
+    public CityInfoAdapter(Context context, City city, OnBackClickListener onBackClickListener) {
         this.context = context;
         this.city = city;
-        this.onTabClickListener = onTabClickListener;
+        this.onBackClickListener = onBackClickListener;
     }
 
     @Override
@@ -52,7 +52,7 @@ public class CityInfoAdapter extends PagerAdapter {
                 listFoodCourts.setAdapter(adapterFoodCourt);
                 break;
         }
-
+        view.getRootView().findViewById(R.id.back).setOnClickListener(view1 -> onBackClickListener.onBackClick(view.getRootView()));
 //        View places_tab = view.findViewById(R.id.places_tab);
 //        renderTabs(view.findViewById(R.id.tab_layout), city);
 //        view.setOnClickListener(view1 -> onTabClickListener.onTabClick(places_tab));
@@ -76,7 +76,7 @@ public class CityInfoAdapter extends PagerAdapter {
 //        ((TabLayout.Tab)view.findViewById(R.id.events_tab)).setText(R.string.events_tab);
     }
 
-    public interface OnTabClickListener {
-        void onTabClick(View view);
+    public interface OnBackClickListener {
+        void onBackClick(View view);
     }
 }
