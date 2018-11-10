@@ -49,10 +49,6 @@ public class CityInfoFragment extends Fragment {
         if (root == null)
             return;
 
-//        List<Place> places = city.getPlaces();
-//        List<FoodCourt> foodCourts = city.getFoodCourtList();
-//        List<Event> events = city.getEventList();
-
         CityInfoAdapter adapter = new CityInfoAdapter(getContext(), city, tab -> {
             ((MainActivity) Objects.requireNonNull(getActivity())).openCities();
 
@@ -62,8 +58,6 @@ public class CityInfoFragment extends Fragment {
 
         TextView title = root.findViewById(R.id.title);
         title.setText(city.getName());
-
-//        ((TabLayout) view.findViewById(R.id.tab_layout)).getTabAt(0).getText();
 
         ViewPager list = root.findViewById(R.id.contentPanel);
 

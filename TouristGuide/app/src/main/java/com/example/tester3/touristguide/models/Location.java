@@ -6,23 +6,23 @@ import java.math.BigDecimal;
 
 public class Location {
     @SerializedName("latitude")
-    private BigDecimal latitude;
+    private String latitude;
     @SerializedName("longitude")
-    private BigDecimal longitude;
+    private String longitude;
 
-    public BigDecimal getLatitude() {
+    public String getLatitude() {
         return latitude;
     }
 
-    public void setLatitude(BigDecimal latitude) {
+    public void setLatitude(String latitude) {
         this.latitude = latitude;
     }
 
-    public BigDecimal getLongitude() {
+    public String getLongitude() {
         return longitude;
     }
 
-    public void setLongitude(BigDecimal longitude) {
+    public void setLongitude(String longitude) {
         this.longitude = longitude;
     }
 

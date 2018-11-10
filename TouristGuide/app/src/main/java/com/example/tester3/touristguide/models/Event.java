@@ -1,8 +1,6 @@
 package com.example.tester3.touristguide.models;
 
-import java.math.BigDecimal;
-import java.util.Date;
-import java.util.List;
+import com.google.gson.annotations.SerializedName;
 
 public class Event {
     public String getTitle() {
@@ -21,19 +19,19 @@ public class Event {
         this.description = description;
     }
 
-    public List<String> getPictures() {
-        return pictures;
+    public String getPicture() {
+        return picture;
     }
 
-    public void setPictures(List<String> pictures) {
-        this.pictures = pictures;
+    public void setPicture(String picture) {
+        this.picture = picture;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
@@ -45,9 +43,18 @@ public class Event {
         this.location = location;
     }
 
+    @SerializedName("title")
     private String title;
+
+    @SerializedName("description")
     private String description;
-    private List<String> pictures;
-    private Date date;
+
+    @SerializedName("picture")
+    private String picture;
+
+    @SerializedName("date")
+    private String date;
+
+    @SerializedName("location")
     private Location location;
 }
