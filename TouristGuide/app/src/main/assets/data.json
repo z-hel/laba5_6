@@ -5,7 +5,7 @@
     "places": [
       {
         "name": "Карлов мост",
-        "picture": "",
+        "picture": "CharlesBridge.jpg",
         "location": {
           "latitude": 50.0861773679804,
           "longitude": 14.4138157367706,
@@ -13,73 +13,55 @@
         }
       },
       {
-        "name": "Карлов мост",
-        "picture": "",
+        "name": "Староместская площадь",
+        "picture": "OldTownSquare.jpg",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
+          "latitude": 50.0873820516891,
+          "longitude": 14.4213581085205,
+          "address": "Staroměstské nám., 110 00 Staré Město, Чехия"
         }
       },
       {
-        "name": "Карлов мост",
-        "picture": "",
+        "name": "Собор Святого Вита",
+        "picture": "StVit.jpg",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
+          "latitude": 50.0906792882334,
+          "longitude": 14.3997716903687,
+          "address": "III. nádvoří 48/2, 119 01 Praha 1, Чехия"
         }
       },
       {
-        "name": "Карлов мост",
-        "picture": "",
+        "name": "Национальный Театр",
+        "picture": "NationalTheatre2.jpg",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
+          "latitude": 50.0808419761537,
+          "longitude": 14.4137835502625,
+          "address": "Národní 2, 110 00 Nové Město, Чехия"
         }
       },
       {
-        "name": "Карлов мост",
-        "picture": "",
+        "name": "Вальдштейнский дворец",
+        "picture": "WaldsteinPalace.jpg",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
+          "latitude": 50.0899702982678,
+          "longitude": 14.4054579734802,
+          "address": "Valdštejnské nám. 4, 118 00 Malá Strana, Чехия"
         }
       },
       {
-        "name": "Карлов мост",
-        "picture": "",
+        "name": "Музей каменных скульптур «Лапидариум»",
+        "picture": "Lapidarium2.jpg",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
-        }
-      },
-      {
-        "name": "Карлов мост",
-        "picture": "",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
-        }
-      },
-      {
-        "name": "Карлов мост",
-        "picture": "",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
+          "latitude": 50.1055907,
+          "longitude": 14.4315044,
+          "address": "Výstaviště 422, 170 00 Praha 7-Bubeneč, Чехия"
         }
       }
     ],
     "food_court": [
       {
         "name": "Белая корова",
-        "picture": "",
+        "picture": "white_cow.jpg",
         "rating": 4.7,
         "avgbill": 150,
         "location": {
@@ -89,46 +71,35 @@
         }
       },
       {
-        "name": "Белая корова",
-        "picture": "",
-        "rating": 4.7,
-        "avgbill": 150,
+        "name": "Restaurace Karavella",
+        "picture": "karavella.jpg",
+        "rating": 4.1,
+        "avgbill": 200,
         "location": {
-          "latitude": 50.077781,
-          "longitude": 14.43266,
-          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+          "latitude": 50.085323,
+          "longitude": 14.419802,
+          "address": "Michalská 438/15, 110 00 Staré Město, Чехия"
         }
       },{
-        "name": "Белая корова",
-        "picture": "",
-        "rating": 4.7,
-        "avgbill": 150,
+        "name": "Česká Restaurace Myslíkova",
+        "picture": "ceska_myslikova.jpg",
+        "rating": 3.9,
+        "avgbill": 180,
         "location": {
-          "latitude": 50.077781,
-          "longitude": 14.43266,
-          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+          "latitude": 50.0778589,
+          "longitude": 14.4182204,
+          "address": "Myslíkova 1343/24, 120 00 Nové Město, Чехия"
         }
       },
       {
-        "name": "Белая корова",
-        "picture": "",
-        "rating": 4.7,
-        "avgbill": 150,
+        "name": "Aquarius Restaurant",
+        "picture": "aquarius_restaurant_3.jpg",
+        "rating": 4.5,
+        "avgbill": 210,
         "location": {
-          "latitude": 50.077781,
-          "longitude": 14.43266,
-          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
-        }
-      },
-      {
-        "name": "Белая корова",
-        "picture": "",
-        "rating": 4.7,
-        "avgbill": 150,
-        "location": {
-          "latitude": 50.077781,
-          "longitude": 14.43266,
-          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+          "latitude": 50.0875583,
+          "longitude": 14.4009643,
+          "address": "Tržiště 303/19, 118 00 Praha-Malá Strana-Malá Strana, Чехия"
         }
       }
     ],
@@ -136,7 +107,7 @@
       {
         "title": "Magical Prague: The Crown of Bohemia",
         "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
+        "picture": "CharlesBridge3.jpg",
         "date": "29 ноября 2018 г., 18:45",
         "location": {
           "latitude": 50.0861773679804,
@@ -145,74 +116,24 @@
         }
       },
       {
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
+        "title": "Пражский фестиваль пива PBFest",
+        "description": "Впервые в городе состоится новый фестиваль пива PBFest, который предложит любителям сего хмельного напитка опробовать продукцию 30 малых чешских и зарубежных пивоваров",
+        "picture": "fest_piva.jpg",
+        "date": "30 ноября – 1 декабря 2018",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
+          "latitude": 50.110443,
+          "longitude": 14.5077792,
+          "address": "Kolbenova 34a, Praha 9"
         }
       },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
+        "title": "Сезон наблюдения за звездным небом в пражских обсерваториях",
+        "description": "С 1 по 30 ноября 2018 года Штефаникова и Дяблицкая обсерватории в Праге приглашают посетителей наблюдать за звездным небом",
+        "picture": "StefanikObservatory.jpg",
+        "date": "01.11.2018 - 30.11.2018",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
-        }
-      },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
-        }
-      },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
-        }
-      },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
-        }
-      },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
-        }
-      },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
+          "latitude": 50.081111,
+          "longitude": 14.889722,
+          "address": "Strahovska 205, Praha 1 Pod hvezdarnou 768, Praha 8"
         }
       }
     ]
@@ -222,433 +143,278 @@
     "picture": "london.jpg",
     "places": [
       {
-        "name": "Карлов мост",
-        "picture": "",
+        "name": "Биг-Бен",
+        "picture": "big_ben.jpg",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
+          "latitude": 51.5007292,
+          "longitude": 0.1246254,
+          "address": "Лондон, SW1A 0AA, Westminster"
         }
       },
       {
-        "name": "Карлов мост",
-        "picture": "",
+        "name": "Вестминстерское аббатство",
+        "picture": "vest_abb.jpg",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
+          "latitude": 51.4992921,
+          "longitude": 0.1273097,
+          "address": "Лондон, SW1P 3PA, 20 Deans Yd"
         }
       },
       {
-        "name": "Карлов мост",
-        "picture": "",
+        "name": "Музей мадам Тюссо",
+        "picture": "tusso.jpg",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
+          "latitude": 51.5230457,
+          "longitude": 0.1543453,
+          "address": "Лондон, NW1 5LR, Marylebone Rd"
         }
       },
       {
-        "name": "Карлов мост",
-        "picture": "",
+        "name": "Собор Святого Павла",
+        "picture": "st_pavel.jpg",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
+          "latitude": 51.5138453,
+          "longitude": 0.0983506,
+          "address": "Лондон, EC4M 8AD, St. Paul's Churchyard"
         }
       },
       {
-        "name": "Карлов мост",
-        "picture": "",
+        "name": "Музей Шерлока Холмса",
+        "picture": "sherlock.jpg",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
-        }
-      },
-      {
-        "name": "Карлов мост",
-        "picture": "",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
-        }
-      },
-      {
-        "name": "Карлов мост",
-        "picture": "",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
-        }
-      },
-      {
-        "name": "Карлов мост",
-        "picture": "",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
+          "latitude": 51.523767,
+          "longitude": 0.1585557,
+          "address": "Лондон, St. Baker, 221B"
         }
       }
     ],
     "food_court": [
       {
-        "name": "Белая корова",
-        "picture": "",
-        "rating": 4.7,
-        "avgbill": 150,
+        "name": "Mari Vanna",
+        "picture": "mari_vanna.jpg",
+        "rating": 4.3,
+        "avgbill": 190,
         "location": {
-          "latitude": 50.077781,
-          "longitude": 14.43266,
-          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+          "latitude": 51.5017996,
+          "longitude": 0.1624222,
+          "address": "116 Knightsbridge, London SW1X 7PJ, Великобритания"
         }
       },
       {
-        "name": "Белая корова",
-        "picture": "",
-        "rating": 4.7,
-        "avgbill": 150,
+        "name": "Sketch London",
+        "picture": "sketch_london.jpeg",
+        "rating": 4.3,
+        "avgbill": 220,
         "location": {
-          "latitude": 50.077781,
-          "longitude": 14.43266,
-          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
-        }
-      },{
-        "name": "Белая корова",
-        "picture": "",
-        "rating": 4.7,
-        "avgbill": 150,
-        "location": {
-          "latitude": 50.077781,
-          "longitude": 14.43266,
-          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+          "latitude": 51.512693,
+          "longitude": 0.141529,
+          "address": "9 Conduit St, Mayfair, London W1S 2XG, Великобритания"
         }
       },
       {
-        "name": "Белая корова",
-        "picture": "",
-        "rating": 4.7,
-        "avgbill": 150,
+        "name": "Restaurant Gordon Ramsay",
+        "picture": "gordonransays.jpg",
+        "rating": 4.4,
+        "avgbill": 250,
         "location": {
-          "latitude": 50.077781,
-          "longitude": 14.43266,
-          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+          "latitude": 51.4854325,
+          "longitude": 0.1621375,
+          "address": "68 Royal Hospital Rd, Chelsea, London SW3 4HP, Великобритания"
         }
       },
       {
-        "name": "Белая корова",
-        "picture": "",
-        "rating": 4.7,
-        "avgbill": 150,
+        "name": "Dinner by Heston Blumenthal",
+        "picture": "blumenthal.jpg",
+        "rating": 4.6,
+        "avgbill": 260,
         "location": {
-          "latitude": 50.077781,
-          "longitude": 14.43266,
-          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+          "latitude": 51.502161,
+          "longitude": 0.159964,
+          "address": "66 Knightsbridge, London SW1X 7LA, Великобритания"
         }
       }
     ],
     "events": [
       {
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
+        "title": "Фестиваль еды Taste of London",
+        "description": "Фестиваль для любителей еды, питья и развлечений. 40 лучших ресторанов города готовят свои лучшие блюда для этого непревзойденного праздника гурманов под открытым небом, в то время как 200 производителей поставляют свои лучшие запасы еды и напитков, чтобы все гости могли проникнуться атмосферой этого кулинарного бутика.",
+        "picture": "tasteoflondon.jpg",
+        "date": "15-18 November 2018",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
+          "latitude": 51.5081761,
+          "longitude": 0.0595714,
+          "address": "Wapping Ln, St Katharine's & Wapping, London E1W 2SF, Великобритания"
         }
       },
       {
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
+        "title": "Anne-Marie",
+        "description": "Энн-Мари Роуз Николсон, более известна как Энн-Мари — британская певица и автор песен, трёхкратная чемпионка мира по каратэ Шотокан. Победительница британской музыкальной премии «MTV Brand New 2016»",
+        "picture": "Annemarie.jpg",
+        "date": "22 November 2018 07 p.m.",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
+          "latitude": 51.4656337,
+          "longitude": 0.1149728,
+          "address": "O2 Academy Brixton, London"
         }
       },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
+        "title": "Немецкий рождественский рынок в Гайд-парке",
+        "description": "Традиция рождественских рынков распространилась по всему миру из ныне французского Эльзаса, и первым, кто принял ее, была Германия. Сейчас немецкие рождественские рынки славятся на все мир куда больше французских.",
+        "picture": "hyde_park.jpg",
+        "date": "21 ноября 2018 — 04 января 2019",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
+          "latitude": 51.5072682,
+          "longitude": 0.1657303,
+          "address": "Гайд-парк, Лондон, Великобритания"
         }
       },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
+        "title": "Courtauld Impressionists: From Manet to Cézanne",
+        "description": "Enjoy highlights from The Courtauld Gallery, including famous works by Cézanne, Toulouse-Lautrec, Renoir, Manet, and Seurat alongside a selection of much-loved Impressionist paintings from the Gallery’s own holdings",
+        "picture": "impressionists.jpg",
+        "date": "Until 20 January 20195",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
-        }
-      },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
-        }
-      },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
-        }
-      },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
-        }
-      },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
+          "latitude": 51.508929,
+          "longitude": 0.128299,
+          "address": "Trafalgar Square, London WC2N 5DN, Великобритания"
         }
       }
     ]
   },
   {
-    "city_name": "Spb",
+    "city_name": "Санкт-Петербург",
     "picture": "stpiter.jpg",
     "places": [
       {
-        "name": "Карлов мост",
-        "picture": "",
+        "name": "Петергоф",
+        "picture": "petergof.jpg",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
+          "latitude": 59.8845003,
+          "longitude": 29.8851756,
+          "address": "Петергоф, Санкт-Петербург"
         }
       },
       {
-        "name": "Карлов мост",
-        "picture": "",
+        "name": "Государственный Эрмитаж",
+        "picture": "ermitazh.jpg",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
+          "latitude": 59.9398317,
+          "longitude": 30.3145597,
+          "address": "Дворцовая пл., 2, Санкт-Петербург"
         }
       },
       {
-        "name": "Карлов мост",
-        "picture": "",
+        "name": "Петропавловская крепость",
+        "picture": "peter_and_paul_fortress.jpg",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
+          "latitude": 59.9500019,
+          "longitude": 30.3166718,
+          "address": "о. Заячий, Петропавловская крепость, Санкт-Петербург"
         }
       },
       {
-        "name": "Карлов мост",
-        "picture": "",
+        "name": "Исаакиевский собор",
+        "picture": "isaak_sobor.jpg",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
+          "latitude": 59.933905,
+          "longitude": 30.306485,
+          "address": "Исаакиевская пл., 4, Санкт-Петербург"
         }
       },
       {
-        "name": "Карлов мост",
-        "picture": "",
+        "name": "Дворцовый мост",
+        "picture": "dvorc_most.jpg",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
-        }
-      },
-      {
-        "name": "Карлов мост",
-        "picture": "",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
-        }
-      },
-      {
-        "name": "Карлов мост",
-        "picture": "",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
-        }
-      },
-      {
-        "name": "Карлов мост",
-        "picture": "",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, 110 00 Praha 1, Чехия"
+          "latitude": 59.9410247,
+          "longitude": 30.3083771,
+          "address": "Дворцовый мост, Санкт-Петербург"
         }
       }
     ],
     "food_court": [
       {
-        "name": "Белая корова",
-        "picture": "",
-        "rating": 4.7,
-        "avgbill": 150,
+        "name": "Percorso",
+        "picture": "percorso.jpeg",
+        "rating": 4.8,
+        "avgbill": 170,
         "location": {
-          "latitude": 50.077781,
-          "longitude": 14.43266,
-          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+          "latitude": 59.934535,
+          "longitude": 30.307747,
+          "address": "Вознесенский пр., 1, Санкт-Петербург"
         }
       },
       {
-        "name": "Белая корова",
-        "picture": "",
-        "rating": 4.7,
-        "avgbill": 150,
+        "name": "Мансарда",
+        "picture": "restoran_mansarda.jpg",
+        "rating": 4.5,
+        "avgbill": 280,
         "location": {
-          "latitude": 50.077781,
-          "longitude": 14.43266,
-          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+          "latitude": 59.9328081,
+          "longitude": 30.3037999,
+          "address": "Почтамтская ул., 3, Санкт-Петербург"
         }
       },{
-        "name": "Белая корова",
-        "picture": "",
-        "rating": 4.7,
-        "avgbill": 150,
+        "name": "Amo Cucinare",
+        "picture": "amo_cucinare.jpg",
+        "rating": 4.6,
+        "avgbill": 210,
         "location": {
-          "latitude": 50.077781,
-          "longitude": 14.43266,
-          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+          "latitude": 59.940248,
+          "longitude": 30.323807,
+          "address": "Большая Конюшенная ул., 5, Санкт-Петербург"
         }
       },
       {
-        "name": "Белая корова",
-        "picture": "",
+        "name": "Блок",
+        "picture": "blok.jpg",
         "rating": 4.7,
-        "avgbill": 150,
+        "avgbill": 190,
         "location": {
-          "latitude": 50.077781,
-          "longitude": 14.43266,
-          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
-        }
-      },
-      {
-        "name": "Белая корова",
-        "picture": "",
-        "rating": 4.7,
-        "avgbill": 150,
-        "location": {
-          "latitude": 50.077781,
-          "longitude": 14.43266,
-          "address": "Rubešova 83/10, 120 00 Praha-Vinohrady-Praha 2, Чехия"
+          "latitude": 59.9458585,
+          "longitude": 30.3683992,
+          "address": "Потёмкинская ул., 4, Санкт-Петербург"
         }
       }
     ],
     "events": [
       {
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
+        "title": "Выставка «Город роботов»",
+        "description": "«Город роботов» — это более 70 новейших машин из США, Германии и Китая, театр андроидов, 11 невероятных VR-зон и интерактивное пространство с космическими технологиями",
+        "picture": "gorod_robotov.jpg",
+        "date": "25 октября – 2 декабря 2018",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
+          "latitude": 59.9813054,
+          "longitude": 30.209932,
+          "address": "ТРК «Питерлэнд», Приморский пр., 72, Санкт-Петербург"
         }
       },
       {
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
+        "title": "One Love Fest",
+        "description": "Праздники не заканчиваются с двенадцатым ударом курантов! One Love Fest позволит петербургским ценителям клубной культуры продлить удовольствие вплоть до 4 января",
+        "picture": "lovee.jpg",
+        "date": "2 января, 14:00 – 3 января 2019, 6:00. 3 января, 14:00 – 4 января 2019, 6:00",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
+          "latitude": 59.9243343,
+          "longitude": 30.2410502,
+          "address": "«Порт Севкабель», Кожевенная линия, 40, Санкт-Петербург"
         }
       },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
+        "title": "Фестиваль-ярмарка «Сырные истории»",
+        "description": "Фермерские хозяйства региона привезут на фестиваль десятки видов сыров, среди которых легко найти и такие редкие, как, например, полисто с оранжевой плесенью.",
+        "picture": "cheese.jpg",
+        "date": "18 ноября 12:00–18:00",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
+          "latitude": 60.0064527,
+          "longitude": 30.2681828,
+          "address": "Клуб «Пионер», пр. Испытателей д.26, корп. 2, Санкт-Петербург"
         }
       },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
+        "title": "Петербургская ярмарка. Городской фестиваль хендмейда",
+        "description": "24—25 ноября в порту Севкабель пройдёт Петербургская ярмарка — большой фестиваль хендмейда, в котором примут участие мастера и дизайнеры из разных городов",
+        "picture": "gorod_robotov.jpg",
+        "date": "24–25 ноября 12:00–20:00",
         "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
-        }
-      },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
-        }
-      },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
-        }
-      },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
-        }
-      },{
-        "title": "Magical Prague: The Crown of Bohemia",
-        "description": "A virtual tour along its medieval cobblestone lanes and dark passageways, past its many churches and synagogues, into the heart of a city dominated by the magnificent Hradcany, the 1,100-year-old castle complex",
-        "picture": "",
-        "date": "29 ноября 2018 г., 18:45",
-        "location": {
-          "latitude": 50.0861773679804,
-          "longitude": 14.4138157367706,
-          "address": "Karlův most, Praha 1, Чехия"
+          "latitude": 59.9243343,
+          "longitude": 30.2410502,
+          "address": "«Порт Севкабель», Кожевенная линия, 40, Санкт-Петербург"
         }
       }
     ]

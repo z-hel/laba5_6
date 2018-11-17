@@ -10,15 +10,32 @@ import com.example.tester3.touristguide.R;
 import com.example.tester3.touristguide.models.Event;
 import com.example.tester3.touristguide.utils.Utils;
 
-public class EventsViewHolder extends RecyclerView.ViewHolder{
-    public EventsViewHolder (View itemView) { super(itemView); }
-    public void bind (Event event) {
-        ((TextView)itemView.findViewById(R.id.event_title)).setText(event.getTitle());
-        ((TextView)itemView.findViewById(R.id.event_date)).setText(event.getDate());
-        ((TextView)itemView.findViewById(R.id.event_description)).setText(event.getDescription());
-        ((TextView)itemView.findViewById(R.id.event_address)).setText(event.getLocation().getAddress());
-//        ((ImageView)itemView.findViewById(R.id.event_picture)).setImageDrawable(Utils.getDrawableFromAssets(itemView.getContext(), event.getPicture()));
-        ((ImageView)itemView.findViewById(R.id.event_location)).setImageDrawable(Utils.getDrawableFromAssets(itemView.getContext(), event.getPicture()));
-        itemView.findViewById(R.id.event_location).setOnClickListener(v -> Utils.openLocation(itemView.getContext(), event.getLocation().getLatitude(), event.getLocation().getLongitude()));
+public class EventsViewHolder extends RecyclerView.ViewHolder {
+
+    private TextView title;
+    private TextView date;
+    private TextView description;
+    private TextView address;
+    private ImageView picture;
+    private View location;
+
+    public EventsViewHolder(View itemView) {
+        super(itemView);
+
+        title = itemView.findViewById(R.id.event_title);
+        date = itemView.findViewById(R.id.event_date);
+        description = itemView.findViewById(R.id.event_description);
+        address = itemView.findViewById(R.id.event_address);
+        picture = itemView.findViewById(R.id.event_picture);
+        location = itemView.findViewById(R.id.event_location);
+    }
+
+    public void bind(Event event) {
+        title.setText(event.getTitle());
+        date.setText(event.getDate());
+        description.setText(event.getDescription());
+        address.setText(event.getLocation().getAddress());
+        picture.setImageDrawable(Utils.getDrawableFromAssets(itemView.getContext(), event.getPicture()));
+        location.setOnClickListener(v -> Utils.openLocation(itemView.getContext(), event.getLocation().getLatitude(), event.getLocation().getLongitude()));
     }
 }

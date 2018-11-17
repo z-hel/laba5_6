@@ -11,12 +11,23 @@ import com.example.tester3.touristguide.utils.Utils;
 
 public class PlacesViewHolder extends RecyclerView.ViewHolder{
 
+    private TextView name;
+    private TextView address;
+    private ImageView picture;
+    private View location;
+
     public PlacesViewHolder(View itemView) {
         super(itemView);
+
+        name = itemView.findViewById(R.id.place_name);
+        address = itemView.findViewById(R.id.place_address);
+        picture = itemView.findViewById(R.id.place_picture);
+        location = itemView.findViewById(R.id.place_location);
     }
     public void bind (Place place) {
-        ((TextView)(itemView.findViewById(R.id.place_name))).setText(place.getName());
-        ((TextView)(itemView.findViewById(R.id.place_address))).setText(place.getLocation().getAddress());
-        ((ImageView)(itemView.findViewById(R.id.place_picture))).setImageDrawable(Utils.getDrawableFromAssets(itemView.getContext(), place.getPicture()));
+        name.setText(place.getName());
+        address.setText(place.getLocation().getAddress());
+        picture.setImageDrawable(Utils.getDrawableFromAssets(itemView.getContext(), place.getPicture()));
+        location.setOnClickListener(v -> Utils.openLocation(itemView.getContext(), place.getLocation().getLatitude(), place.getLocation().getLongitude()));
     }
 }

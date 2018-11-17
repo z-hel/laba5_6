@@ -7,8 +7,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/gray_6"
     android:elevation="5dp"
-    android:layout_marginTop="8dp"
-    android:layout_marginBottom="8dp">
+    >
     <android.support.constraint.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -67,12 +66,12 @@
             app:layout_constraintTop_toBottomOf="@id/event_picture"
             app:layout_constraintStart_toEndOf="@id/event_address"
             app:layout_constraintEnd_toStartOf="@id/event_description"
+            app:layout_constraintVertical_bias="0"
             android:layout_marginTop="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="16dp"
             android:scaleType="centerCrop"
-            android:clickable="true"
-            tools:src="@drawable/prague"
+            android:src="@drawable/location"
             />
         <ImageView
             android:id="@+id/event_picture"
@@ -85,7 +84,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintVertical_bias="0"
-            tools:src="@drawable/prague"/>
+            android:src="@drawable/location"/>
 
     </android.support.constraint.ConstraintLayout>
 </android.support.v7.widget.CardView>

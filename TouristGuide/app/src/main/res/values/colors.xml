@@ -6,4 +6,8 @@
     <color name="white">#ffffff</color>
     <color name="gray_50">#7f222222</color>
     <color name="gray_6">#0f222222</color>
+
+    <!-- todo перенести в ресурсы values -->
+
+    <dimen name="city_viewholder_margin">20dp</dimen>
 </resources>

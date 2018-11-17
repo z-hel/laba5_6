@@ -2,6 +2,7 @@ package com.example.tester3.touristguide.ui.adapters;
 
 
 import android.content.Context;
+import android.graphics.Rect;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TabItem;
@@ -14,7 +15,10 @@ import android.view.ViewGroup;
 
 import com.example.tester3.touristguide.R;
 import com.example.tester3.touristguide.models.City;
+import com.example.tester3.touristguide.ui.activities.MainActivity;
 import com.example.tester3.touristguide.utils.Utils;
+
+import java.util.Objects;
 
 
 public class CityInfoAdapter extends PagerAdapter {
@@ -27,13 +31,10 @@ public class CityInfoAdapter extends PagerAdapter {
 
     private City city;
     private Context context;
-    private OnBackClickListener onBackClickListener;
 
-    public CityInfoAdapter(Context context, City city, OnBackClickListener onBackClickListener) {
+    public CityInfoAdapter(Context context, City city) {
         this.context = context;
         this.city = city;
-        this.onBackClickListener = onBackClickListener;
-
     }
 
     @Override
@@ -49,8 +50,8 @@ public class CityInfoAdapter extends PagerAdapter {
         View view = inflater.inflate(R.layout.view_city_info, container, false);
         container.addView(view);
 
-        RecyclerView list = view.findViewById(R.id.list);
-
+        RecyclerView list = (RecyclerView) view;
+        list.addItemDecoration(new ItemDecoration(context));
         switch (position) {
             case 0:
                 PlacesAdapter adapterPlace = new PlacesAdapter(context, city.getPlaces());
@@ -65,7 +66,6 @@ public class CityInfoAdapter extends PagerAdapter {
                 list.setAdapter(adapterEvent);
                 break;
         }
-        view.getRootView().findViewById(R.id.back).setOnClickListener(view1 -> onBackClickListener.onBackClick(view.getRootView()));
 
         return view;
     }
@@ -97,7 +97,29 @@ public class CityInfoAdapter extends PagerAdapter {
         return view == object;
     }
 
-    public interface OnBackClickListener {
-        void onBackClick(View view);
+    public static class ItemDecoration extends RecyclerView.ItemDecoration {
+
+        private final int decorationHeight;
+
+        public ItemDecoration(Context context) {
+            decorationHeight = context.getResources().getDimensionPixelSize(R.dimen.city_viewholder_margin);
+        }
+
+        @Override
+        public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
+            super.getItemOffsets(outRect, view, parent, state);
+
+            if (parent != null && view != null) {
+
+                int itemPosition = parent.getChildAdapterPosition(view);
+                int totalCount = parent.getAdapter().getItemCount();
+
+                if (itemPosition >= 0 && itemPosition < totalCount - 1) {
+                    outRect.bottom = decorationHeight;
+                }
+
+            }
+
+        }
     }
 }
