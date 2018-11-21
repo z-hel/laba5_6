@@ -49,4 +49,9 @@ public class MainActivity extends AppCompatActivity {
                 .replace(R.id.container, CitiesFragment.newInstance(getRepository()))
                 .commit();
     }
+
+    @Override
+    public void onBackPressed() {
+        openCities();
+    }
 }

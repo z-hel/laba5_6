@@ -1,5 +1,6 @@
 package com.example.tester3.touristguide.ui.viewholders;
 
+import android.annotation.SuppressLint;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
@@ -35,7 +36,7 @@ public class FoodCourtsViewHolder extends RecyclerView.ViewHolder{
     public void bind (FoodCourt foodCourt) {
         name.setText(foodCourt.getName());
         ratingText.setText(Float.toString(foodCourt.getRating()));
-        avgBill.setText(foodCourt.getAvgbill().toString() + "$");
+        avgBill.setText(String.format("%s$", foodCourt.getAvgbill().toString()));
         address.setText(foodCourt.getLocation().getAddress());
         rating.setRating(foodCourt.getRating());
         picture.setImageDrawable(Utils.getDrawableFromAssets(itemView.getContext(), foodCourt.getPicture()));

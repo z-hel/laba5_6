@@ -65,4 +65,5 @@ public class CityInfoFragment extends Fragment {
         tabs.setupWithViewPager(list);
         list.setAdapter(adapter);
     }
+
 }

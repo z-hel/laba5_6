@@ -24,7 +24,7 @@ public class Utils {
     }
 
     public static void openLocation(Context context, String latitude, String longitude) {
-        String geoUri = String.format("geo:%s,%s?z=15", latitude, longitude);
+        String geoUri = String.format("geo:%s,%s?z=17", latitude, longitude);
         Intent geoIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(geoUri));
 
         if (geoIntent.resolveActivity(context.getPackageManager()) != null) {

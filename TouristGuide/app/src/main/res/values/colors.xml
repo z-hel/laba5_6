@@ -9,5 +9,5 @@
 
     <!-- todo перенести в ресурсы values -->
 
-    <dimen name="city_viewholder_margin">20dp</dimen>
+
 </resources>
